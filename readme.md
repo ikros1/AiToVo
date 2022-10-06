@@ -22,6 +22,7 @@
 1. 声纹识别 https://www.xfyun.cn/doc/voiceservice/isv/API.html
 2. 语音转写 https://www.xfyun.cn/doc/asr/lfasr/API.html
 ## 参数说明
+   
     //项目绝对地址
     private final static String run_path="";
     //ffmpeg绝对地址  例 "C:\ffmpeg-master-latest-win64-gpl\bin\ffmpeg.exe"
@@ -53,14 +54,12 @@
     private final static String handle_result_wav_22050="path/mp3_handle_ov_to_wav22050/";
     //44100采样率音频结果存放目录
     private final static String handle_result_wav_44100="path/mp3_handle_ov_to_wav44100/";
-    
-
-##输入说明
+## 输入说明
     //音频特征文件存放目录
     private final static String build_feature_file_path=run_path+"path\\build_feature\\";    
     //待识别音频存放目录
     private final static String handle_path=run_path+"path\\mp3_list\\";
-##输入要求
+## 输入要求
 1. 音频特征文件格式要求 1声道 16000采样率 mp3 时长小于20秒 只包含目标说话人声音
 2. 音频特征文件命名要求 从数字1开始自增排序,没有空格eg
     1.mp3
@@ -73,4 +72,4 @@
     2.mp3
     ~xx.mp3
 
-##最后祝大家轻松取材，愉快炼丹。
+## 最后祝大家轻松取材，愉快炼丹。
