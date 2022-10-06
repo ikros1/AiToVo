@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="lfasr-sdk-3.0.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/lfasr-sdk-3.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
